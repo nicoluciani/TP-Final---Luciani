@@ -1,0 +1,36 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+h2{
+  color:red;
+  font-weight: 400;
+}
+
+header{ 
+  background-color: white;
+  padding: 16px 0;
+}
+
+footer {
+  margin-top: auto;
+  background-color: red;
+  clear: both;
+  color: white;
+  text-align: right;
+  padding: 15px 0;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
