@@ -1,0 +1,41 @@
+.columnas {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.reseñas {
+    width: 25%;
+}
+
+.bienvenidos p {
+    font-size: 20px;
+}
+
+.reseña {
+    background-color: whitesmoke;
+    padding: 16px;
+}
+
+.reseña .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    background-color: whitesmoke;
+    display: block;
+}
+
+.reseña .autor {
+    font-size: 10px;
+    text-align: center;
+    background-color: white;
+    display: block;
+    margin: 12px 0;
+}
+
